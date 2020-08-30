@@ -1,14 +1,5 @@
-/*---------------------------------------------------------------------------------
 
-Master Stylesheet
-
-	Template:	 Unika - Responsive One Page HTML5 Template
-	Author:		 imransdesign.com
-	URL:		 http://imransdesign.com/
-    Designed By: https://www.behance.net/poljakova
-	Version:	1.0	
-
----------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,900;1,700;1,900&display=swap');
 
 html {
 	height: 100% !important;
@@ -48,10 +39,10 @@ body .body {
 
 /* Begin Fonts */
 body {
-	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+font-family: 'Raleway', Helvetica, Arial,sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', Helvetica, Arial,sans-serif;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -71,10 +62,10 @@ h5 {
 	font-size: 18px;
 }
 p {
-	font: 14px/1.5em "Roboto";
+	font: 14px/1.5em "Raleway";
 }
 .navbar-nav > li > a {
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 /* End Fonts */
 
@@ -1162,8 +1153,7 @@ p.subtitle {
 	margin-bottom: 3%;
 }
 .progress {
-    background-color: #e4c465;
-	
+	background-color: #363940 !important; 
     -webkit-animation: progressBar 3s ease-in-out;
     -webkit-animation-fill-mode:both; 
     -moz-animation: progressBar 3s ease-in-out;
@@ -1201,7 +1191,7 @@ h1.header {
 }
 /* Timeline */
 
-.timeline {
+.timeline, .timelinecv {
   border-left: 3px solid #363940;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
@@ -1218,31 +1208,32 @@ h1.header {
 
 .timeline h1,
 .timeline h2,
-.timeline h3 {
+.timeline h3, .timelinecv h1, .timelinecv h2, .timelinecv h3 {
   font-size: 1.4em;
 }
 
-.timeline .event {
+.timeline .event, .timelinecv .event {
   border-bottom: 1px solid rgba(160, 160, 160, 0.2);
   padding-bottom: 15px;
   margin-bottom: 20px;
   position: relative;
 }
 
-.timeline .event:last-of-type {
+.timeline .event:last-of-type, .timelinecv .event:last-of-type  {
   padding-bottom: 0;
   margin-bottom: 0;
   border: none;
 }
 
 .timeline .event:before,
-.timeline .event:after {
+.timeline .event:after, .timelinecv .event:before,
+.timelinecv .event:after {
   position: absolute;
   display: block;
   top: 0;
 }
 
-.timeline .event:before {
+.timeline .event:before, .timelinecv .event:before {
   left: -177.5px;
   color: #212121;
   content: attr(data-date);
@@ -1253,7 +1244,7 @@ h1.header {
   min-width: 120px;
 }
 
-.timeline .event:after {
+.timeline .event:after, .timelinecv .event:after {
   box-shadow: 0 0 0 6px #363940;
   left: -27px;
   background: #fff;
