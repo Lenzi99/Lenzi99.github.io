@@ -1255,7 +1255,7 @@ h1.header {
 
 .timeline .event:after {
   box-shadow: 0 0 0 6px #363940;
-  left: -24px;
+  left: -27px;
   background: #fff;
   border-radius: 50%;
   height: 11px;
