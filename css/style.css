@@ -1152,12 +1152,12 @@ p.subtitle {
     -moz-animation-fill-mode:both; 
 }
 
-@-webkit-keyframes progressBar {
+@-webkit-keyframes progress-bar {
   0% { width: 0; }
   100% { width: 100%; }
 }
 
-@-moz-keyframes progressBar {
+@-moz-keyframes progress-bar {
   0% { width: 0; }
   100% { width: 100%; }
 }
