@@ -1145,11 +1145,11 @@ p.subtitle {
 
 
 .meter { 
-    height: 10px;
+    height: 5px;
     position: relative;
     background: #f3efe6;
     overflow: hidden;
-	margin-bottom: 10%
+	margin-bottom: 10%;
 }
 
 .meter span {
@@ -1159,6 +1159,7 @@ p.subtitle {
 
 .progress {
     background-color: #e4c465;
+	
     -webkit-animation: progressBar 3s ease-in-out;
     -webkit-animation-fill-mode:both; 
     -moz-animation: progressBar 3s ease-in-out;
