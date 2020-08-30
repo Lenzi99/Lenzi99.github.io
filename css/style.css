@@ -1145,10 +1145,11 @@ p.subtitle {
 
 
 .meter { 
-    height: 5px;
+    height: 10px;
     position: relative;
     background: #f3efe6;
     overflow: hidden;
+	margin-bottom: 10%
 }
 
 .meter span {
