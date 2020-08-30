@@ -1205,7 +1205,7 @@ h1.header {
   border-left: 3px solid #363940;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
-  color: #363940;
+  color: #333;
   letter-spacing: 0.5px;
   position: relative;
   line-height: 1.4em;
@@ -1254,6 +1254,7 @@ h1.header {
 }
 
 .timeline .event:after {
+  box-shadow: 0 0 0 8px #363940;
   left: -30px;
   background: #212121;
   border-radius: 50%;
