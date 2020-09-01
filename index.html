@@ -22,7 +22,7 @@
 
 		<!-- Theme CSS -->
         <link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.sass">
 		<link rel="stylesheet" href="css/mobile.css">
 
 		<!-- Skin CSS -->
@@ -30,7 +30,17 @@
 	</head>
 
     <body data-spy="scroll" data-target="#main-navbar">
-        <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+        <div class="page-loader">
+			<svg>
+ 				 <circle
+    			class="loader"
+    			r="20" cx="50%" cy="50%"
+   				 fill="none"
+   				 stroke-width="4"
+    				stroke="#6BBBFA"
+  					/>
+			</svg>
+		</div>  <!-- Display loading image while page loads -->
     	<div class="body">
         
             <!--========== BEGIN HEADER ==========-->
