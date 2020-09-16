@@ -373,7 +373,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	font-weight: 400;
 }
 .rotate-box-1 p {
-	padding: 0 10px;
+	padding: 0 0px;
 }
 .rotate-box-1 .rotate-box-info {
 	padding-left: 60px;
