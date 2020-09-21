@@ -1259,7 +1259,7 @@ h1.header {
 Responsive Stuff
 ———————————————*/
 
-@media (max-width: 945px) {
+@media (max-width: 945px ) and (min-width:769px) {
   .timeline .event::before {
     left: 0.5px;
     top: 20px;
@@ -1282,8 +1282,7 @@ Responsive Stuff
 @media (max-width: 768px) {
   .timeline .event::before {
     left: 0.5px;
-    top: -5%;
-	  padding-bottom: 5%;
+    top: -25px;
     min-width: 0;
     font-size: 13px;
   }
