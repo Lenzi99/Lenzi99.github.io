@@ -1300,6 +1300,7 @@ Responsive Stuff
 	.timeline .event, .timelinecv .event {
   border-bottom: 1px solid rgba(160, 160, 160, 0.2);
   padding-bottom: 5%;
+		margin-bottom: 5%;
   margin-bottom: 10%;
   position: relative;
 }
