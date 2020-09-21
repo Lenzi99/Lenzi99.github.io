@@ -1262,7 +1262,7 @@ Responsive Stuff
 @media (max-width: 945px) {
   .timeline .event::before {
     left: 0.5px;
-    top: 15%;
+    top: 20px;
     min-width: 0;
     font-size: 13px;
   }
@@ -1281,7 +1281,8 @@ Responsive Stuff
 @media (max-width: 768px) {
   .timeline .event::before {
     left: 0.5px;
-    top: 20px;
+    top: -5%;
+	  padding-bottom: 5%;
     min-width: 0;
     font-size: 13px;
   }
