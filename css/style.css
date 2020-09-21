@@ -1262,7 +1262,7 @@ Responsive Stuff
 @media (max-width: 945px) {
   .timeline .event::before {
     left: 0.5px;
-    top: 20px;
+    top: 2015%;
     min-width: 0;
     font-size: 13px;
   }
